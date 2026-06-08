@@ -1,0 +1,14 @@
+{
+  "schema": "driftbench/manifest/v1",
+  "_note": "Populate by running notebooks/00_hygiene.ipynb against the raw CIC CSVs on Drive. The sha256/rows fields let a third party verify byte-identical inputs after downloading from the official sources below. Do NOT commit the CSVs themselves.",
+  "datasets": {
+    "CSE-CIC-IDS2018": {
+      "source_url": "https://www.unb.ca/cic/datasets/ids-2018.html",
+      "files": {}
+    },
+    "CIC-DDoS2019": {
+      "source_url": "https://www.unb.ca/cic/datasets/ddos-2019.html",
+      "files": {}
+    }
+  }
+}

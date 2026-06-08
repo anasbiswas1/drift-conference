@@ -1,0 +1,7 @@
+# Runtime deps (also declared in pyproject.toml). Pinned loosely for Colab.
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.2
+lightgbm>=3.3
+matplotlib>=3.6

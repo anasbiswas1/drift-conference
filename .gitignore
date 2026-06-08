@@ -1,0 +1,28 @@
+# Datasets live on Drive, NEVER in the public repo (size + CIC licence).
+data/
+*.csv
+*.parquet
+*.feather
+!manifests/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Results are committed EXCEPT bulky intermediates
+results/**/*.npy
+results/**/*.pkl

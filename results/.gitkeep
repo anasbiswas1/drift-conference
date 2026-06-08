@@ -1,0 +1,2 @@
+# Generated results land here (metric tables, drift tables, figures).
+# Small CSVs are committed; bulky .npy/.pkl are gitignored.
