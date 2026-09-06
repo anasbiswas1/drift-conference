@@ -26,3 +26,4 @@ env/
 # Results are committed EXCEPT bulky intermediates
 results/**/*.npy
 results/**/*.pkl
+kaggle.json
