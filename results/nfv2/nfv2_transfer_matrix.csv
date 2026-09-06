@@ -1,0 +1,9 @@
+source,target,model,setting,macro_f1,weighted_f1,mcc,auprc_macro,fp_rate,brier,ece
+nf2018,nf2018,rf,in_domain,0.9888,0.9954,0.9779,0.9853,0.0001,0.0048,0.0051
+nf2018,nfunsw,rf,zero_shot,0.4905,0.9437,0.0097,0.4906,0.0,0.0553,0.126
+nf2018,nf2018,lgbm,in_domain,0.9878,0.995,0.9759,0.9842,0.0004,0.0049,0.0004
+nf2018,nfunsw,lgbm,zero_shot,0.4695,0.8787,-0.0409,0.5039,0.1305,0.1604,0.1599
+nfunsw,nf2018,rf,zero_shot,0.4226,0.738,-0.1524,0.5004,0.1867,0.1981,0.1637
+nfunsw,nfunsw,rf,in_domain,0.9821,0.9974,0.9642,0.9943,0.0017,0.0021,0.0006
+nfunsw,nf2018,lgbm,zero_shot,0.449,0.7794,-0.1013,0.432,0.1068,0.183,0.1808
+nfunsw,nfunsw,lgbm,in_domain,0.9799,0.9971,0.9598,0.9949,0.002,0.0022,0.0003
