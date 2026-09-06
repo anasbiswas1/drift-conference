@@ -27,3 +27,5 @@ env/
 results/**/*.npy
 results/**/*.pkl
 kaggle.json
+notebooks/02_drift_experiments.ipynb
+notebooks/drift_notebook1.ipynb
