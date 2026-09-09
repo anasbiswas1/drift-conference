@@ -31,3 +31,5 @@ notebooks/02_drift_experiments.ipynb
 notebooks/drift_notebook1.ipynb
 !results/nfv2/
 !results/nfv2/*.csv
+!results/**/
+!results/**/*.csv
