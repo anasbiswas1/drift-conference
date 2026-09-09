@@ -1,0 +1,74 @@
+{
+  "nftonv2": {
+    "total_rows": 13135881,
+    "prepared_rows": 3000000,
+    "attack_rate": 0.726,
+    "n_attack_families": 9,
+    "families": {
+      "Benign": 822024,
+      "scanning": 686408,
+      "xss": 559678,
+      "ddos": 398943,
+      "password": 226834,
+      "injection": 150739,
+      "dos": 149132,
+      "backdoor": 3775,
+      "mitm": 1718,
+      "ransomware": 749
+    }
+  },
+  "nfbotv2": {
+    "total_rows": 30420086,
+    "prepared_rows": 3000001,
+    "attack_rate": 0.9958,
+    "n_attack_families": 4,
+    "families": {
+      "DDoS": 1408747,
+      "DoS": 1345425,
+      "Reconnaissance": 232995,
+      "Benign": 12580,
+      "Theft": 254
+    }
+  },
+  "nf2018v2": {
+    "total_rows": 17129715,
+    "prepared_rows": 2999998,
+    "attack_rate": 0.1184,
+    "n_attack_families": 14,
+    "families": {
+      "Benign": 2644822,
+      "DDOS attack-HOIC": 186847,
+      "DoS attacks-Hulk": 75771,
+      "DDoS attacks-LOIC-HTTP": 36266,
+      "Infilteration": 20230,
+      "SSH-Bruteforce": 16634,
+      "Bot": 4910,
+      "DoS attacks-GoldenEye": 4855,
+      "FTP-BruteForce": 4542,
+      "DoS attacks-SlowHTTPTest": 2472,
+      "DoS attacks-Slowloris": 1666,
+      "Brute Force -Web": 375,
+      "DDOS attack-LOIC-UDP": 370,
+      "Brute Force -XSS": 162,
+      "SQL Injection": 76
+    }
+  },
+  "nfunswv2": {
+    "total_rows": 1986745,
+    "prepared_rows": 1986745,
+    "attack_rate": 0.0378,
+    "n_attack_families": 9,
+    "families": {
+      "Benign": 1911666,
+      "Exploits": 29905,
+      "Fuzzers": 20645,
+      "Reconnaissance": 11171,
+      "Generic": 5992,
+      "DoS": 4172,
+      "Shellcode": 1427,
+      "Backdoor": 833,
+      "Analysis": 770,
+      "Worms": 164
+    }
+  }
+}
