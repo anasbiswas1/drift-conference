@@ -1,0 +1,8 @@
+strategy,n,fit_s,fit_max,apply_s
+calibrate,108,0.033,0.171,0.005
+rethreshold,108,0.002,0.006,0.0
+buffer_only,180,7.444,65.0,0.0
+augment,108,28.407,98.0,0.0
+iw_augment,108,56.185,181.0,0.0
+finetune,108,2.62,9.0,0.0
+source fit (reference),12,23.667,70.0,0.0
