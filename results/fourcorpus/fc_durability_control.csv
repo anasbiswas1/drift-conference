@@ -1,0 +1,37 @@
+target,model,held_family,tpr_absent,mcc_absent,tpr_tenth,mcc_tenth
+nf2018v2,rf,DDOS attack-HOIC,0.9924,0.959,1.0,0.9581
+nf2018v2,rf,DoS attacks-Hulk,0.8856,0.9564,0.9657,0.9578
+nf2018v2,rf,DDoS attacks-LOIC-HTTP,0.0,0.9107,0.8462,0.962
+nf2018v2,lgbm,DDOS attack-HOIC,0.9534,0.9641,0.9977,0.9564
+nf2018v2,lgbm,DoS attacks-Hulk,0.8185,0.962,0.9665,0.9613
+nf2018v2,lgbm,DDoS attacks-LOIC-HTTP,0.0,0.9123,0.5637,0.961
+nf2018v2,mlp,DDOS attack-HOIC,1.0,0.9354,0.9994,0.9456
+nf2018v2,mlp,DoS attacks-Hulk,0.9244,0.9209,0.9632,0.941
+nf2018v2,mlp,DDoS attacks-LOIC-HTTP,0.849,0.8854,0.7883,0.9419
+nfunswv2,rf,Exploits,0.2737,0.7521,0.3055,0.7951
+nfunswv2,rf,Fuzzers,0.5924,0.8774,0.5914,0.881
+nfunswv2,rf,Reconnaissance,0.9858,0.9001,0.9742,0.9019
+nfunswv2,lgbm,Exploits,0.2312,0.7586,0.2086,0.7217
+nfunswv2,lgbm,Fuzzers,0.3961,0.7831,0.282,0.8436
+nfunswv2,lgbm,Reconnaissance,0.5658,0.8701,0.5605,0.8731
+nfunswv2,mlp,Exploits,0.3036,0.4408,0.3165,0.7344
+nfunswv2,mlp,Fuzzers,0.7863,0.8543,0.8797,0.7815
+nfunswv2,mlp,Reconnaissance,0.9795,0.8349,0.952,0.8705
+nftonv2,rf,scanning,0.0066,0.5915,0.8459,0.9021
+nftonv2,rf,xss,0.974,0.9357,0.9749,0.9329
+nftonv2,rf,ddos,0.9832,0.9395,0.9836,0.9384
+nftonv2,lgbm,scanning,0.0033,0.5886,0.7896,0.9014
+nftonv2,lgbm,xss,0.8125,0.9219,0.8752,0.9285
+nftonv2,lgbm,ddos,0.9171,0.9329,0.9366,0.9345
+nftonv2,mlp,scanning,0.0168,0.5756,0.7975,0.8417
+nftonv2,mlp,xss,0.5184,0.7947,0.9489,0.9092
+nftonv2,mlp,ddos,0.8363,0.873,0.8766,0.8846
+nfbotv2,rf,DDoS,0.9952,0.6904,0.9961,0.8474
+nfbotv2,rf,DoS,0.9999,0.7745,0.9999,0.8054
+nfbotv2,rf,Reconnaissance,0.3418,0.1963,0.9571,0.7617
+nfbotv2,lgbm,DDoS,0.9885,0.666,0.9958,0.6993
+nfbotv2,lgbm,DoS,0.9999,0.8297,0.9999,0.8358
+nfbotv2,lgbm,Reconnaissance,0.3354,0.1547,0.9035,0.6368
+nfbotv2,mlp,DDoS,0.529,0.5209,0.9995,0.7136
+nfbotv2,mlp,DoS,0.9999,0.3661,0.9999,0.692
+nfbotv2,mlp,Reconnaissance,0.4152,0.1391,0.913,0.6221
