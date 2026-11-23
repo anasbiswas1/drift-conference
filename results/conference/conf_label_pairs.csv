@@ -1,0 +1,17 @@
+label_a,label_b,rows
+Benign,Infilteration,14014
+DoS attacks-SlowHTTPTest,FTP-BruteForce,154
+DoS attacks-Slowloris,Infilteration,140
+Benign,Bot,71
+Benign,DoS attacks-Slowloris,59
+Bot,Infilteration,58
+DoS attacks-SlowHTTPTest,SSH-Bruteforce,21
+FTP-BruteForce,SSH-Bruteforce,14
+Brute Force -Web,SQL Injection,13
+Bot,Brute Force -XSS,10
+Benign,Brute Force -Web,4
+Infilteration,SQL Injection,4
+Brute Force -Web,Infilteration,3
+Benign,SQL Injection,2
+Brute Force -XSS,SQL Injection,2
+Brute Force -XSS,Infilteration,2
