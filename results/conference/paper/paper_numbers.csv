@@ -2,45 +2,46 @@
 regime_1_flows,2098149
 regime_1_benign,56851
 regime_1_benign_share,0.02709578776340479
-regime_2_flows,984976
+regime_2_flows,1171936
 regime_2_benign,56964
-regime_2_benign_share,0.05783288120725784
-day1_syn_udplag_web_share_of_attacks,0.19479713398043794
-day2_syn_share_of_attacks,0.21341749891165201
-regime_1_buffer_0.01_rows,20981
-regime_1_buffer_0.01_benign_share,0.5891044278156428
-regime_1_buffer_0.05_rows,104907
-regime_1_buffer_0.05_benign_share,0.12528239297663646
-regime_1_buffer_0.10_rows,209814
-regime_1_buffer_0.10_benign_share,0.06487174354428207
-regime_2_buffer_0.01_rows,9849
-regime_2_buffer_0.01_benign_share,0.4815717331708803
-regime_2_buffer_0.05_rows,49248
-regime_2_buffer_0.05_benign_share,0.09781107862248213
-regime_2_buffer_0.10_rows,98497
-regime_2_buffer_0.10_benign_share,0.052468603104663086
-rf_platt10_day1_flagged_Syn,0.5078169680589929
-rf_platt10_day1_flagged_UDP-lag,0.6167143412969169
-rf_platt10_day1_flagged_WebDDoS,0.40167046317388005
-regime_1_buffer_0.10_attack_type_DrDoS_NTP,196203
-regime_2_buffer_0.10_attack_type_NetBIOS,93329
-spearman_auroc_before_mcc_after,0.6200446219339001
-spearman_ece_after_mcc_after,0.14370095102778602
-n_ece_below_0.1,51
-n_ece_below_0.1_and_mcc_below_0.1,34
-audit_Benign,6443/160939
-audit_Bot,61/101252
-audit_Brute Force -Web,9/570
-audit_Brute Force -XSS,7/229
-audit_DDOS attack-HOIC,0/65927
-audit_DDOS attack-LOIC-UDP,0/1730
-audit_DDoS attacks-LOIC-HTTP,0/199868
-audit_DoS attacks-GoldenEye,0/41406
-audit_DoS attacks-Hulk,0/78992
-audit_DoS attacks-SlowHTTPTest,102/107
-audit_DoS attacks-Slowloris,46/9908
-audit_FTP-BruteForce,52/54
-audit_Infilteration,7673/120836
-audit_SQL Injection,8/85
-audit_SSH-Bruteforce,7/94048
-pair_benign_infilteration_rows,14014
+regime_2_benign_share,0.04860674985664746
+regime_1_tail_types_share_of_attacks,0.19479713398043794
+regime_1_n_DrDoS_DNS,148519
+regime_1_n_DrDoS_LDAP,149744
+regime_1_n_DrDoS_MSSQL,200310
+regime_1_n_DrDoS_NTP,199207
+regime_1_n_DrDoS_NetBIOS,192177
+regime_1_n_DrDoS_SNMP,175499
+regime_1_n_DrDoS_SSDP,196404
+regime_1_n_DrDoS_UDP,196448
+regime_1_n_Syn,197583
+regime_1_n_TFTP,185351
+regime_1_n_UDP-lag,199617
+regime_1_n_WebDDoS,439
+regime_2_tail_types_share_of_attacks,0.17931122934028837
+regime_2_n_LDAP,137919
+regime_2_n_MSSQL,199963
+regime_2_n_NetBIOS,193277
+regime_2_n_Portmap,186960
+regime_2_n_Syn,198054
+regime_2_n_UDP,196926
+regime_2_n_UDPLag,1873
+spearman_auroc_before_mcc_after_common,0.6026093108654925
+spearman_ece_after_mcc_after_common,0.006313306370907711
+n_runs,108
+n_ece_below_0.1,53
+n_ece_below_0.1_and_mcc_below_0.1,36
+runs_mcc_above_0.55,"{""rf_regime_2"": 18}"
+negative_platt_slopes,"{""lgbm_regime_2"": 18, ""mlp_regime_1"": 6, ""mlp_regime_2"": 6}"
+prior_only_common_regime_1_frac0.01_ece,0.5662059484674341
+prior_only_common_regime_1_frac0.01_rho,0.4108955721843573
+prior_only_common_regime_1_frac0.05_ece,0.1023839136284274
+prior_only_common_regime_1_frac0.05_rho,0.8747176070233635
+prior_only_common_regime_1_frac0.10_ece,0.0419732641960733
+prior_only_common_regime_1_frac0.10_rho,0.9351282564557181
+prior_only_common_regime_2_frac0.01_ece,0.35255722835698783
+prior_only_common_regime_2_frac0.01_rho,0.5979179110845635
+prior_only_common_regime_2_frac0.05_ece,0.0310779109617914
+prior_only_common_regime_2_frac0.05_rho,0.9193972284797596
+prior_only_common_regime_2_frac0.10_ece,0.0091811540230758
+prior_only_common_regime_2_frac0.10_rho,0.9596562934646268

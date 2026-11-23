@@ -14,6 +14,7 @@ regime_1,WebDDoS,0.397,0.386,0.396
 regime_2,LDAP,0.932,0.443,0.763
 regime_2,MSSQL,0.926,0.417,0.719
 regime_2,NetBIOS,0.929,0.475,0.553
+regime_2,Portmap,0.928,0.473,0.572
 regime_2,Syn,0.881,0.779,0.516
 regime_2,UDP,0.922,0.439,0.546
 regime_2,UDPLag,0.898,0.835,0.589
