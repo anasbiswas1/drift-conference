@@ -1,0 +1,20 @@
+,value
+audit_Benign,6443/160939
+audit_Bot,61/101252
+audit_Brute Force -Web,9/570
+audit_Brute Force -XSS,7/229
+audit_DDOS attack-HOIC,0/65927
+audit_DDOS attack-LOIC-UDP,0/1730
+audit_DDoS attacks-LOIC-HTTP,0/199868
+audit_DoS attacks-GoldenEye,0/41406
+audit_DoS attacks-Hulk,0/78992
+audit_DoS attacks-SlowHTTPTest,102/107
+audit_DoS attacks-Slowloris,46/9908
+audit_FTP-BruteForce,52/54
+audit_Infilteration,7673/120836
+audit_SQL Injection,8/85
+audit_SSH-Bruteforce,7/94048
+pair_benign_infilteration_rows,14014
+table1_max_sd_other_columns,0.0393398627159292
+unseen_Bot_max_flagged_any_seed,0.0033875874056808
+unseen_Infilteration_max_flagged_any_seed,0.0167778190450046
