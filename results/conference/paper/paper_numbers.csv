@@ -1,0 +1,46 @@
+,value
+regime_1_flows,2098149
+regime_1_benign,56851
+regime_1_benign_share,0.02709578776340479
+regime_2_flows,984976
+regime_2_benign,56964
+regime_2_benign_share,0.05783288120725784
+day1_syn_udplag_web_share_of_attacks,0.19479713398043794
+day2_syn_share_of_attacks,0.21341749891165201
+regime_1_buffer_0.01_rows,20981
+regime_1_buffer_0.01_benign_share,0.5891044278156428
+regime_1_buffer_0.05_rows,104907
+regime_1_buffer_0.05_benign_share,0.12528239297663646
+regime_1_buffer_0.10_rows,209814
+regime_1_buffer_0.10_benign_share,0.06487174354428207
+regime_2_buffer_0.01_rows,9849
+regime_2_buffer_0.01_benign_share,0.4815717331708803
+regime_2_buffer_0.05_rows,49248
+regime_2_buffer_0.05_benign_share,0.09781107862248213
+regime_2_buffer_0.10_rows,98497
+regime_2_buffer_0.10_benign_share,0.052468603104663086
+rf_platt10_day1_flagged_Syn,0.5078169680589929
+rf_platt10_day1_flagged_UDP-lag,0.6167143412969169
+rf_platt10_day1_flagged_WebDDoS,0.40167046317388005
+regime_1_buffer_0.10_attack_type_DrDoS_NTP,196203
+regime_2_buffer_0.10_attack_type_NetBIOS,93329
+spearman_auroc_before_mcc_after,0.6200446219339001
+spearman_ece_after_mcc_after,0.14370095102778602
+n_ece_below_0.1,51
+n_ece_below_0.1_and_mcc_below_0.1,34
+audit_Benign,6443/160939
+audit_Bot,61/101252
+audit_Brute Force -Web,9/570
+audit_Brute Force -XSS,7/229
+audit_DDOS attack-HOIC,0/65927
+audit_DDOS attack-LOIC-UDP,0/1730
+audit_DDoS attacks-LOIC-HTTP,0/199868
+audit_DoS attacks-GoldenEye,0/41406
+audit_DoS attacks-Hulk,0/78992
+audit_DoS attacks-SlowHTTPTest,102/107
+audit_DoS attacks-Slowloris,46/9908
+audit_FTP-BruteForce,52/54
+audit_Infilteration,7673/120836
+audit_SQL Injection,8/85
+audit_SSH-Bruteforce,7/94048
+pair_benign_infilteration_rows,14014

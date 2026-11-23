@@ -1,0 +1,12 @@
+variant,split,model,macro_f1_mean,macro_f1_std,mcc_mean,mcc_std,attack_recall_mean,fp_rate_mean,bin_auroc_mean,ece_mean
+merged,random,lgbm,0.918,0.005,0.91,0.0,0.974,0.307,0.977,0.003
+merged,random,rf,0.904,0.007,0.903,0.0,0.949,0.218,0.97,0.022
+native,random,lgbm,0.814,0.01,0.91,0.0,0.973,0.303,0.977,0.003
+native,random,mlp,0.79,0.013,0.883,0.001,0.939,0.265,0.963,0.003
+native,random,rf,0.802,0.003,0.903,0.001,0.949,0.218,0.971,0.023
+native,time_all_seen,lgbm,0.801,0.013,0.881,0.001,0.959,0.363,0.961,0.031
+native,time_all_seen,mlp,0.747,0.019,0.865,0.002,0.924,0.272,0.95,0.021
+native,time_all_seen,rf,0.751,0.006,0.872,0.0,0.938,0.301,0.942,0.046
+native,time_global,lgbm,0.018,0.0,0.001,0.0,0.001,0.001,0.754,0.931
+native,time_global,mlp,0.014,0.001,0.003,0.002,0.006,0.002,0.473,0.929
+native,time_global,rf,0.014,0.0,-0.0,0.0,0.001,0.001,0.77,0.914
